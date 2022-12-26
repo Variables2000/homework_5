@@ -23,6 +23,5 @@ fn load_from_file(file_path: &str) {
 }
 
 fn main() {
-    let file = File::open("BAI5.inp")
-        .expect("Can't Open File!");
+    load_from_file("BAI5.inp");
 }
